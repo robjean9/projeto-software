@@ -1,0 +1,68 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+  text-transform: uppercase;
+}
+
+.field{
+  label{
+    display: block;
+    margin-bottom: 4px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .input{
+    -webkit-appearance: none;
+    height: 48px;
+    flex-grow: 1;
+    margin-right: 24px;
+    padding-left: 16px;
+    font-size: 16px;
+    color: #444;
+    border: 1px solid #ccc;
+    display: inline-block;
+    background-color: #fff;
+    &:focus{
+      border-color:  #56CBF9;
+      outline: none;
+    }
+  }
+}
+
+body{
+  background-color: #D3C4D1;
+}
+
+
+
+.lesson-station{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 16px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  &.verao{
+    background-color: #E8EC67;
+  }
+  &.outono{
+    background-color: #A8D4AD;
+  }
+
+  &.primavera{
+    background-color: #967D69;
+  }
+
+  &.inverno{
+    background-color: #92B9BD;
+  }
+
+  &:hover{
+    opacity: 0.7;
+  }
+
+  &.active{
+    border: 2px solid;
+
+  }
+}

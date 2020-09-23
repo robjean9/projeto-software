@@ -1,0 +1,26 @@
+<div class="start-game-section">
+
+  <img class="start-game-image" src="assets/img/start.png" alt="">
+
+  <div class="start-game-name">Jogo das Estações</div>
+
+
+  <!-- campo pra por o nome -->
+  
+  <div class="field">
+    <label for="">Informe seu nome</label>
+    <input class="input" [(ngModel)]="data.playerName" type="text">
+  </div>
+
+
+  <div class="start-buttons-wrapper">
+    <div class="start-game-level" (click)="goToLevel1()">
+      Começar <br>Nível 1
+    </div>
+  
+    <div class="start-game-level" (click)="goToLevel2()">
+      Começar <br>Nível 2
+    </div>
+  </div>
+
+</div>

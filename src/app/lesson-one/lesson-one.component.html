@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-2">
+      <div class="lesson-station verao" [ngClass]="{'active': selected=='verao'}" (click)="selected='verao'">Verão</div>
+      <div class="lesson-station inverno" [ngClass]="{'active': selected=='inverno'}" (click)="selected='inverno'">Inverno</div>
+      <div class="lesson-station outono"  [ngClass]="{'active': selected=='outono'}" (click)="selected='outono'">Outono</div>
+      <div class="lesson-station primavera" [ngClass]="{'active': selected=='primavera'}" (click)="selected='primavera'">Primavera</div>
+    </div>
+    <div class="col-lg-10">
+      <div *ngIf="selected=='verao'">Verão
+        
+      </div>
+
+
+      <div *ngIf="selected=='inverno'">Inverno
+
+      </div>
+
+
+      <div *ngIf="selected=='outono'">Outono
+
+      </div>
+
+
+      <div *ngIf="selected=='primavera'">Primavera
+
+      </div>
+
+
+    </div>
+  </div>
+</div>
