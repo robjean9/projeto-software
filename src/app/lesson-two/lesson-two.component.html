@@ -1,0 +1,63 @@
+<div class="container">
+  <h1>Aprendendo as Estações e suas Roupas</h1>
+  <div class="row">
+    <div class="col-lg-2">
+      <div class="lesson-station verao" [ngClass]="{'active': selected=='verao'}" (click)="selected='verao'">Verão</div>
+      <div class="lesson-station inverno" [ngClass]="{'active': selected=='inverno'}" (click)="selected='inverno'">Inverno</div>
+      <div class="lesson-station outono" [ngClass]="{'active': selected=='outono'}" (click)="selected='outono'">Outono</div>
+      <div class="lesson-station primavera" [ngClass]="{'active': selected=='primavera'}" (click)="selected='primavera'">Primavera</div>
+    </div>
+    <div class="col-lg-10">
+      <div *ngIf="selected=='verao'">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/cVerao.jpg" alt=""></div>
+          <div class="col-lg-6 text-wrapper">
+            <p>Para aguentar o calor do verão, o melhor é usar camiseta, bermuda, chinelo e boné.</p>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="selected=='inverno'">
+
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/cInverno.jpg" alt=""></div>
+          <div class="col-lg-6 text-wrapper">
+            <p>Para aguentar o frio do inverno, o melhor é usar casaco, calça moletom, botas, gorro.</p>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="selected=='outono'">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/cOutono.jpg" alt=""></div>
+          <div class="col-lg-6 text-wrapper">
+            <p>No outono as temperatura mudam muito durante o dia, o melhor é usar blusa, calça, tênis.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="selected=='primavera'">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="assets/img/cPrimavera.jpg" alt=""></div>
+          <div class="col-lg-6 text-wrapper">
+            <p>Durante a primavera o clima costuma ser ao mesmo tempo quente e fresquinho, o melhor é usar camiseta, bermuda e tênis.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="start-buttons-wrapper">
+    <div class="start-questions" (click)="startQuestion1()">
+      Começar <br>Questões
+    </div>
+  </div>
+
+</div>

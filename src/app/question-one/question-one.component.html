@@ -1,0 +1,109 @@
+<div class="container">
+  <div class="row">
+
+    <div class="col-lg-12">
+      <div *ngIf="selected=='verao'">
+        <h1>Qual imagem representa o <b>Verão</b>?</h1>
+        <div class="cards-option">
+          <div class="card-option" (click)="setAnswer(1,1)" [ngStyle]="{'background-image': 'url(assets/img/summer.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(1)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(1,2)" [ngStyle]="{'background-image': 'url(assets/img/winter.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(2)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(1,3)" [ngStyle]="{'background-image': 'url(assets/img/spring.jpg)'}">
+            <div  alt="" class="error"*ngIf="removeAnswer.includes(3)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(1,4)" [ngStyle]="{'background-image': 'url(assets/img/autumn.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(4)"></div>
+          </div>
+
+          <!-- <div class="card-option ">
+            <img src="assets/img/autumn.jpg" alt="" (click)="setAnswer(1,2)" *ngIf="!removeAnswer2">
+          </div>
+          <div class="card-option ">
+            <img src="assets/img/spring.jpg" alt="" (click)="setAnswer(1,3)" *ngIf="!removeAnswer3">
+          </div>
+          <div class="card-option ">
+            <img src="assets/img/winter.jpg" alt="" (click)="setAnswer(1,4)" *ngIf="!removeAnswer4">
+          </div> -->
+        </div>
+      </div>
+
+
+      <div *ngIf="selected=='inverno'">
+        <h1>Qual imagem representa o <b>Inverno</b>?</h1>
+        <div class="cards-option">
+          <div class="card-option" (click)="setAnswer(2,1)" [ngStyle]="{'background-image': 'url(assets/img/autumn.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(1)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(2,4)" [ngStyle]="{'background-image': 'url(assets/img/summer.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(4)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(2,3)" [ngStyle]="{'background-image': 'url(assets/img/winter.jpg)'}">
+            <div  alt="" class="error"*ngIf="removeAnswer.includes(3)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(2,2)" [ngStyle]="{'background-image': 'url(assets/img/spring.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(2)"></div>
+          </div>
+        
+
+        </div>
+      </div>
+
+
+      <div *ngIf="selected=='outono'">
+        <h1>Qual imagem representa o <b>Outono</b>?</h1>
+        <div class="cards-option">
+          <div class="card-option" (click)="setAnswer(3,1)" [ngStyle]="{'background-image': 'url(assets/img/winter.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(1)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(3,4)" [ngStyle]="{'background-image': 'url(assets/img/spring.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(4)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(3,3)" [ngStyle]="{'background-image': 'url(assets/img/autumn.jpg)'}">
+            <div  alt="" class="error"*ngIf="removeAnswer.includes(3)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(3,2)" [ngStyle]="{'background-image': 'url(assets/img/summer.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(2)"></div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <div *ngIf="selected=='primavera'">
+        <h1>Qual imagem representa o <b>Primavera</b>?</h1>
+        <div class="cards-option">
+          <div class="card-option" (click)="setAnswer(4,1)" [ngStyle]="{'background-image': 'url(assets/img/summer.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(1)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(4,2)" [ngStyle]="{'background-image': 'url(assets/img/winter.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(2)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(4,3)" [ngStyle]="{'background-image': 'url(assets/img/autumn.jpg)'}">
+            <div  alt="" class="error"*ngIf="removeAnswer.includes(3)"></div>
+          </div>
+          <div class="card-option" (click)="setAnswer(4,4)" [ngStyle]="{'background-image': 'url(assets/img/spring.jpg)'}">
+            <div  alt="" class="error" *ngIf="removeAnswer.includes(4)"></div>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div *ngIf="selected=='congrats'" class="congrats-next">
+        <video [src]="'assets/parabens-'+randomVideo+'.mp4'" autoplay="true" (ended)="endLevel()"></video>
+        <h1>Parabéns! <br> Vamos para a próxima Fase</h1>
+      </div>
+
+
+      <div *ngIf="selected=='congrats-next'" class="congrats-next">
+        <video [src]="'assets/parabens-'+randomVideo+'.mp4'" autoplay="true" (ended)="nextQuestion()"></video>
+        <h1>Parabéns, vamos para a próxima questão!</h1>
+      </div>
+
+
+    </div>
+  </div>
+</div>

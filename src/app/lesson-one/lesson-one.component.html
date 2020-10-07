@@ -1,4 +1,5 @@
 <div class="container">
+  <h1>Aprendendo as Estações</h1>
   <div class="row">
     <div class="col-lg-2">
       <div class="lesson-station verao" [ngClass]="{'active': selected=='verao'}" (click)="selected='verao'">Verão</div>
@@ -7,26 +8,46 @@
       <div class="lesson-station primavera" [ngClass]="{'active': selected=='primavera'}" (click)="selected='primavera'">Primavera</div>
     </div>
     <div class="col-lg-10">
-      <div *ngIf="selected=='verao'">Verão
-        
+      <div *ngIf="selected=='verao'">
+        <p>O verão é a estação mais quente do ano, as temperaturas são altas e os dias ficam maiores do que as noites. Isso acontece porque uma parte da Terra está mais perto do Sol.</p>
+        <p>Com o calor, a água evapora e, por isso, chove mais.</p>
+        <p>É importante não esquecer de utilizar o protetor solar e tomar muitos líquidos nessa época do ano. Isso porque além de ser muito quente, os raios solares são bem fortes.</p>
+        <p>No Brasil, o verão inicia em 21 de dezembro e dura até 20 de março.</p>
       </div>
 
 
-      <div *ngIf="selected=='inverno'">Inverno
+      <div *ngIf="selected=='inverno'">
+        <p>O inverno começa depois do outono e termina com o início da primavera. É a época mais fria do ano e em algumas regiões existe muita neve.</p>
+        <p>Durante o inverno, uma parte da Terra é menos iluminada pelos raios solares, assim os dias ficam mais curtos e as noites mais longas.</p>
+        <p>Nesse período, o clima é frio e seco, pois a umidade ar é baixa. Isso tudo pode fazer com que as pessoas fiquem mais resfriadas.</p>
+        <p>No Brasil, o inverno começa no dia 21 de junho e termina no dia 23 de setembro.</p>
 
       </div>
 
 
-      <div *ngIf="selected=='outono'">Outono
+      <div *ngIf="selected=='outono'">
+        <p>O outono é a estação que acontece depois do verão e antes do inverno. Durante o outono os dias voltam a ficar curtos e as folhas das árvores, já amareladas, começam a cair no solo.</p>
+        <p>As temperaturas começam a baixar e os dias ficam mais frios. Os raios solares também ficam cada vez menos fortes e podem acontecer ventanias.</p>
+        <p>No Brasil, o outono inicia entre 20 ou 21 de Março e termina entre 21 ou 22 de Junho. Porém, o outono não é percebido em todas as regiões do país.</p>
 
       </div>
 
 
-      <div *ngIf="selected=='primavera'">Primavera
+      <div *ngIf="selected=='primavera'">
+        <p>A primavera é a estação mais florida e colorida do ano. A temperatura é mais agradável e com o passar do tempo os dias começam a ficar maiores do que as noites.</p>
+        <p>Os dias são agradáveis para passeios e contemplação da natureza. Os animais voltam a ficar ativos e as plantas ficam cheinhas de flores.</p>
+        <p>No Brasil, a primavera inicia em 23 de setembro e termina em 22 de dezembro.</p>
 
       </div>
 
 
     </div>
   </div>
+
+<div class="start-buttons-wrapper">
+  <div class="start-questions" (click)="startQuestion1()">
+    Começar <br>Questões
+  </div>
+</div>
+
 </div>

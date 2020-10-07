@@ -1,0 +1,33 @@
+<div class="start-game-section">
+
+  <!-- <img class="start-game-image" src="assets/img/start.png" alt=""> -->
+
+  <div class="start-game-name">Jogo das Estações</div>
+
+
+  <!-- campo pra por o nome -->
+  
+  
+
+<section>
+  <header class="row">
+    <div class="col">Nome</div>
+    <div class="col">Tempo Lição 1</div>
+    <div class="col">Tempo Resolvendo 1</div>
+    <div class="col">Erros na Lição 1</div>
+    <div class="col">Tempo Lição 2</div>
+    <div class="col">Tempo Resolvendo 2</div>
+    <div class="col">Erros na Lição 2</div>
+  </header>
+  <div class="row" *ngFor="let result of results">
+    <div class="col">{{result.playerName}}</div>
+    <div class="col">{{result.timeOnLessonOne | minuteSeconds}}</div>
+    <div class="col">{{result.timeOnQuestionOne | minuteSeconds}}</div>
+    <div class="col">{{result.errorsOnQuestionOne}}</div>
+    <div class="col">{{result.timeOnLessonTwo | minuteSeconds}}</div>
+    <div class="col">{{result.timeOnQuestionTwo | minuteSeconds}}</div>
+    <div class="col">{{result.errorsOnQuestionTwo}}</div>
+  </div>
+</section>
+  
+</div>
