@@ -12,6 +12,8 @@ import { LessonTwoComponent } from './lesson-two/lesson-two.component';
 import { DBConfig, NgxIndexedDBModule } from 'ngx-indexed-db';
 import { ResultsComponent } from './results/results.component';
 import { MinuteSecondsPipe } from './_services/seconds.pipe';
+import { CreditsComponent } from './credits/credits.component';
+import { EndGameComponent } from './end-game/end-game.component';
 
 const dbConfig: DBConfig  = {
   name: 'JogoDb',
@@ -39,6 +41,8 @@ const dbConfig: DBConfig  = {
     LessonTwoComponent,
     QuestionOneComponent,
     QuestionTwoComponent,
+    EndGameComponent,
+    CreditsComponent,
     ResultsComponent,
     MinuteSecondsPipe
   ],

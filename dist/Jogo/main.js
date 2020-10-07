@@ -144,12 +144,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _lesson_one_lesson_one_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./lesson-one/lesson-one.component */ "./src/app/lesson-one/lesson-one.component.ts");
-/* harmony import */ var _lesson_two_lesson_two_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lesson-two/lesson-two.component */ "./src/app/lesson-two/lesson-two.component.ts");
-/* harmony import */ var _question_one_question_one_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./question-one/question-one.component */ "./src/app/question-one/question-one.component.ts");
-/* harmony import */ var _question_two_question_two_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./question-two/question-two.component */ "./src/app/question-two/question-two.component.ts");
-/* harmony import */ var _results_results_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./results/results.component */ "./src/app/results/results.component.ts");
-/* harmony import */ var _start_game_start_game_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./start-game/start-game.component */ "./src/app/start-game/start-game.component.ts");
+/* harmony import */ var _credits_credits_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./credits/credits.component */ "./src/app/credits/credits.component.ts");
+/* harmony import */ var _end_game_end_game_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./end-game/end-game.component */ "./src/app/end-game/end-game.component.ts");
+/* harmony import */ var _lesson_one_lesson_one_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./lesson-one/lesson-one.component */ "./src/app/lesson-one/lesson-one.component.ts");
+/* harmony import */ var _lesson_two_lesson_two_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./lesson-two/lesson-two.component */ "./src/app/lesson-two/lesson-two.component.ts");
+/* harmony import */ var _question_one_question_one_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./question-one/question-one.component */ "./src/app/question-one/question-one.component.ts");
+/* harmony import */ var _question_two_question_two_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./question-two/question-two.component */ "./src/app/question-two/question-two.component.ts");
+/* harmony import */ var _results_results_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./results/results.component */ "./src/app/results/results.component.ts");
+/* harmony import */ var _start_game_start_game_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./start-game/start-game.component */ "./src/app/start-game/start-game.component.ts");
+
+
 
 
 
@@ -160,13 +164,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: 'start', component: _start_game_start_game_component__WEBPACK_IMPORTED_MODULE_8__["StartGameComponent"] },
-    { path: '', component: _start_game_start_game_component__WEBPACK_IMPORTED_MODULE_8__["StartGameComponent"] },
-    { path: 'lesson/1', component: _lesson_one_lesson_one_component__WEBPACK_IMPORTED_MODULE_3__["LessonOneComponent"] },
-    { path: 'lesson/2', component: _lesson_two_lesson_two_component__WEBPACK_IMPORTED_MODULE_4__["LessonTwoComponent"] },
-    { path: 'question/1', component: _question_one_question_one_component__WEBPACK_IMPORTED_MODULE_5__["QuestionOneComponent"] },
-    { path: 'question/2', component: _question_two_question_two_component__WEBPACK_IMPORTED_MODULE_6__["QuestionTwoComponent"] },
-    { path: 'results', component: _results_results_component__WEBPACK_IMPORTED_MODULE_7__["ResultsComponent"] }
+    { path: 'start', component: _start_game_start_game_component__WEBPACK_IMPORTED_MODULE_10__["StartGameComponent"] },
+    { path: '', component: _start_game_start_game_component__WEBPACK_IMPORTED_MODULE_10__["StartGameComponent"] },
+    { path: 'lesson/1', component: _lesson_one_lesson_one_component__WEBPACK_IMPORTED_MODULE_5__["LessonOneComponent"] },
+    { path: 'lesson/2', component: _lesson_two_lesson_two_component__WEBPACK_IMPORTED_MODULE_6__["LessonTwoComponent"] },
+    { path: 'question/1', component: _question_one_question_one_component__WEBPACK_IMPORTED_MODULE_7__["QuestionOneComponent"] },
+    { path: 'question/2', component: _question_two_question_two_component__WEBPACK_IMPORTED_MODULE_8__["QuestionTwoComponent"] },
+    { path: 'results', component: _results_results_component__WEBPACK_IMPORTED_MODULE_9__["ResultsComponent"] },
+    { path: 'credits', component: _credits_credits_component__WEBPACK_IMPORTED_MODULE_3__["CreditsComponent"] },
+    { path: 'end', component: _end_game_end_game_component__WEBPACK_IMPORTED_MODULE_4__["EndGameComponent"] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -262,6 +268,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ngx_indexed_db__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ngx-indexed-db */ "./node_modules/ngx-indexed-db/fesm2015/ngx-indexed-db.js");
 /* harmony import */ var _results_results_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./results/results.component */ "./src/app/results/results.component.ts");
 /* harmony import */ var _services_seconds_pipe__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./_services/seconds.pipe */ "./src/app/_services/seconds.pipe.ts");
+/* harmony import */ var _credits_credits_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./credits/credits.component */ "./src/app/credits/credits.component.ts");
+/* harmony import */ var _end_game_end_game_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./end-game/end-game.component */ "./src/app/end-game/end-game.component.ts");
+
+
 
 
 
@@ -305,6 +315,8 @@ var AppModule = /** @class */ (function () {
                 _lesson_two_lesson_two_component__WEBPACK_IMPORTED_MODULE_10__["LessonTwoComponent"],
                 _question_one_question_one_component__WEBPACK_IMPORTED_MODULE_9__["QuestionOneComponent"],
                 _question_two_question_two_component__WEBPACK_IMPORTED_MODULE_8__["QuestionTwoComponent"],
+                _end_game_end_game_component__WEBPACK_IMPORTED_MODULE_15__["EndGameComponent"],
+                _credits_credits_component__WEBPACK_IMPORTED_MODULE_14__["CreditsComponent"],
                 _results_results_component__WEBPACK_IMPORTED_MODULE_12__["ResultsComponent"],
                 _services_seconds_pipe__WEBPACK_IMPORTED_MODULE_13__["MinuteSecondsPipe"]
             ],
@@ -326,6 +338,138 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/credits/credits.component.html":
+/*!************************************************!*\
+  !*** ./src/app/credits/credits.component.html ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"start-game-section\">\n\n  <img class=\"start-game-image\" src=\"assets/img/start.png\" alt=\"\">\n\n  <div class=\"start-game-name\">Jogo das Estações</div>\n\n\n  <!-- campo pra por o nome -->\n  \n  <p>Jogo desenvolvido por:</p>\n  <p>EDUARDO NATAN MACHADO INACIO</p>\n  <p>ROBSON JEAN PENTEADO</p>\n  <p>THIAGO HENRIQUE OLIVEIRA DE JESUS</p>\n  <br>\n  <p><b>UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ</b></p>\n\n\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/credits/credits.component.scss":
+/*!************************************************!*\
+  !*** ./src/app/credits/credits.component.scss ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".start-game-section {\n  margin-top: calc(50vh - 312px);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-flow: column; }\n\n.start-game-image {\n  height: 256px; }\n\n.start-game-name {\n  font-size: 64px;\n  margin-bottom: 16px;\n  font-weight: bold;\n  color: #fff; }\n\n.input {\n  width: 400px; }\n\n.start-buttons-wrapper {\n  display: flex;\n  margin-top: 32px; }\n\n.start-buttons-wrapper .start-game-level {\n    background-color: #fff;\n    text-align: center;\n    font-size: 24px;\n    padding: 64px;\n    border-radius: 8px;\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n    margin: 0px 16px;\n    cursor: pointer; }\n\n.start-buttons-wrapper .start-game-level:hover {\n      background-color: #56CBF9; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yb2Jzb24vd2ViL3Byb2pldG8tam9nby9zcmMvYXBwL2NyZWRpdHMvY3JlZGl0cy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNFLDhCQUE4QjtFQUM5QixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2QixpQkFBaUIsRUFBQTs7QUFHbkI7RUFDRSxhQUFhLEVBQUE7O0FBR2Y7RUFDRSxlQUFlO0VBQ2YsbUJBQW1CO0VBQ25CLGlCQUFpQjtFQUNqQixXQUFXLEVBQUE7O0FBR2I7RUFDRSxZQUFZLEVBQUE7O0FBSWQ7RUFDRSxhQUFhO0VBQ2IsZ0JBQWdCLEVBQUE7O0FBRmxCO0lBS0Usc0JBQXNCO0lBQ3BCLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2YsYUFBYTtJQUNiLGtCQUFrQjtJQUNsQiwwQ0FBdUM7SUFDdkMsZ0JBQWdCO0lBQ2hCLGVBQWUsRUFBQTs7QUFabkI7TUFjTSx5QkFBeUIsRUFBQSIsImZpbGUiOiJzcmMvYXBwL2NyZWRpdHMvY3JlZGl0cy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG4uc3RhcnQtZ2FtZS1zZWN0aW9ue1xuICBtYXJnaW4tdG9wOiBjYWxjKDUwdmggLSAzMTJweCk7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBmbGV4LWZsb3c6IGNvbHVtbjtcbn1cblxuLnN0YXJ0LWdhbWUtaW1hZ2V7XG4gIGhlaWdodDogMjU2cHg7XG59XG5cbi5zdGFydC1nYW1lLW5hbWV7XG4gIGZvbnQtc2l6ZTogNjRweDtcbiAgbWFyZ2luLWJvdHRvbTogMTZweDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gIGNvbG9yOiAjZmZmO1xufVxuXG4uaW5wdXR7XG4gIHdpZHRoOiA0MDBweDtcbn1cblxuXG4uc3RhcnQtYnV0dG9ucy13cmFwcGVye1xuICBkaXNwbGF5OiBmbGV4O1xuICBtYXJnaW4tdG9wOiAzMnB4O1xuICAuc3RhcnQtZ2FtZS1sZXZlbHtcblxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBmb250LXNpemU6IDI0cHg7XG4gICAgcGFkZGluZzogNjRweDtcbiAgICBib3JkZXItcmFkaXVzOiA4cHg7XG4gICAgYm94LXNoYWRvdzogMCA0cHggOHB4IDAgcmdiYSgwLDAsMCwwLjIpO1xuICAgIG1hcmdpbjogMHB4IDE2cHg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICY6aG92ZXJ7XG4gICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNTZDQkY5O1xuICAgIH1cbiAgfVxufVxuIl19 */"
+
+/***/ }),
+
+/***/ "./src/app/credits/credits.component.ts":
+/*!**********************************************!*\
+  !*** ./src/app/credits/credits.component.ts ***!
+  \**********************************************/
+/*! exports provided: CreditsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CreditsComponent", function() { return CreditsComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_services/data.service */ "./src/app/_services/data.service.ts");
+
+
+
+
+var CreditsComponent = /** @class */ (function () {
+    function CreditsComponent(data, router) {
+        this.data = data;
+        this.router = router;
+    }
+    CreditsComponent.prototype.ngOnInit = function () {
+    };
+    CreditsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-credits',
+            template: __webpack_require__(/*! ./credits.component.html */ "./src/app/credits/credits.component.html"),
+            styles: [__webpack_require__(/*! ./credits.component.scss */ "./src/app/credits/credits.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+    ], CreditsComponent);
+    return CreditsComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/end-game/end-game.component.html":
+/*!**************************************************!*\
+  !*** ./src/app/end-game/end-game.component.html ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"start-game-section\">\n\n  <img class=\"start-game-image\" src=\"assets/img/start.png\" alt=\"\">\n\n  <div class=\"start-game-name\">Jogo das Estações</div>\n\n\n  <!-- campo pra por o nome -->\n  \n\n  <div>\n    <p>Você errou {{data.errorsOnQuestionOne}} na Lição 1</p>\n    <p>Você errou {{data.errorsOnQuestionTwo}} na Lição 2</p>\n  </div>\n\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/end-game/end-game.component.scss":
+/*!**************************************************!*\
+  !*** ./src/app/end-game/end-game.component.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".start-game-section {\n  margin-top: calc(50vh - 312px);\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-flow: column; }\n\n.start-game-image {\n  height: 256px; }\n\n.start-game-name {\n  font-size: 64px;\n  margin-bottom: 16px;\n  font-weight: bold;\n  color: #fff; }\n\n.input {\n  width: 400px; }\n\n.start-buttons-wrapper {\n  display: flex;\n  margin-top: 32px; }\n\n.start-buttons-wrapper .start-game-level {\n    background-color: #fff;\n    text-align: center;\n    font-size: 24px;\n    padding: 64px;\n    border-radius: 8px;\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);\n    margin: 0px 16px;\n    cursor: pointer; }\n\n.start-buttons-wrapper .start-game-level:hover {\n      background-color: #56CBF9; }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9yb2Jzb24vd2ViL3Byb2pldG8tam9nby9zcmMvYXBwL2VuZC1nYW1lL2VuZC1nYW1lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUVBO0VBQ0UsOEJBQThCO0VBQzlCLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsdUJBQXVCO0VBQ3ZCLGlCQUFpQixFQUFBOztBQUduQjtFQUNFLGFBQWEsRUFBQTs7QUFHZjtFQUNFLGVBQWU7RUFDZixtQkFBbUI7RUFDbkIsaUJBQWlCO0VBQ2pCLFdBQVcsRUFBQTs7QUFHYjtFQUNFLFlBQVksRUFBQTs7QUFJZDtFQUNFLGFBQWE7RUFDYixnQkFBZ0IsRUFBQTs7QUFGbEI7SUFLRSxzQkFBc0I7SUFDcEIsa0JBQWtCO0lBQ2xCLGVBQWU7SUFDZixhQUFhO0lBQ2Isa0JBQWtCO0lBQ2xCLDBDQUF1QztJQUN2QyxnQkFBZ0I7SUFDaEIsZUFBZSxFQUFBOztBQVpuQjtNQWNNLHlCQUF5QixFQUFBIiwiZmlsZSI6InNyYy9hcHAvZW5kLWdhbWUvZW5kLWdhbWUuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuLnN0YXJ0LWdhbWUtc2VjdGlvbntcbiAgbWFyZ2luLXRvcDogY2FsYyg1MHZoIC0gMzEycHgpO1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgZmxleC1mbG93OiBjb2x1bW47XG59XG5cbi5zdGFydC1nYW1lLWltYWdle1xuICBoZWlnaHQ6IDI1NnB4O1xufVxuXG4uc3RhcnQtZ2FtZS1uYW1le1xuICBmb250LXNpemU6IDY0cHg7XG4gIG1hcmdpbi1ib3R0b206IDE2cHg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xuICBjb2xvcjogI2ZmZjtcbn1cblxuLmlucHV0e1xuICB3aWR0aDogNDAwcHg7XG59XG5cblxuLnN0YXJ0LWJ1dHRvbnMtd3JhcHBlcntcbiAgZGlzcGxheTogZmxleDtcbiAgbWFyZ2luLXRvcDogMzJweDtcbiAgLnN0YXJ0LWdhbWUtbGV2ZWx7XG5cbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgZm9udC1zaXplOiAyNHB4O1xuICAgIHBhZGRpbmc6IDY0cHg7XG4gICAgYm9yZGVyLXJhZGl1czogOHB4O1xuICAgIGJveC1zaGFkb3c6IDAgNHB4IDhweCAwIHJnYmEoMCwwLDAsMC4yKTtcbiAgICBtYXJnaW46IDBweCAxNnB4O1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAmOmhvdmVye1xuICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzU2Q0JGOTtcbiAgICB9XG4gIH1cbn1cbiJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/end-game/end-game.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/end-game/end-game.component.ts ***!
+  \************************************************/
+/*! exports provided: EndGameComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EndGameComponent", function() { return EndGameComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _services_data_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../_services/data.service */ "./src/app/_services/data.service.ts");
+
+
+
+
+var EndGameComponent = /** @class */ (function () {
+    function EndGameComponent(data, router) {
+        this.data = data;
+        this.router = router;
+    }
+    EndGameComponent.prototype.ngOnInit = function () {
+    };
+    EndGameComponent.prototype.goToLevel1 = function () {
+        this.router.navigate(['lesson/1']);
+        this.data.save();
+    };
+    EndGameComponent.prototype.goToLevel2 = function () {
+        this.router.navigate(['lesson/2']);
+        this.data.save();
+    };
+    EndGameComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-end-game',
+            template: __webpack_require__(/*! ./end-game.component.html */ "./src/app/end-game/end-game.component.html"),
+            styles: [__webpack_require__(/*! ./end-game.component.scss */ "./src/app/end-game/end-game.component.scss")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_services_data_service__WEBPACK_IMPORTED_MODULE_3__["DataService"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"]])
+    ], EndGameComponent);
+    return EndGameComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/lesson-one/lesson-one.component.html":
 /*!******************************************************!*\
   !*** ./src/app/lesson-one/lesson-one.component.html ***!
@@ -333,7 +477,7 @@ var AppModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <h1>Aprendendo as Estações</h1>\n  <div class=\"row\">\n    <div class=\"col-lg-2\">\n      <div class=\"lesson-station verao\" [ngClass]=\"{'active': selected=='verao'}\" (click)=\"selected='verao'\">Verão</div>\n      <div class=\"lesson-station inverno\" [ngClass]=\"{'active': selected=='inverno'}\" (click)=\"selected='inverno'\">Inverno</div>\n      <div class=\"lesson-station outono\"  [ngClass]=\"{'active': selected=='outono'}\" (click)=\"selected='outono'\">Outono</div>\n      <div class=\"lesson-station primavera\" [ngClass]=\"{'active': selected=='primavera'}\" (click)=\"selected='primavera'\">Primavera</div>\n    </div>\n    <div class=\"col-lg-10\">\n      <div *ngIf=\"selected=='verao'\">\n        <p>O verão é a estação mais quente do ano, as temperaturas são altas e os dias ficam maiores do que as noites. Isso acontece porque uma parte da Terra está mais perto do Sol.</p>\n        <p>Com o calor, a água evapora e, por isso, chove mais.</p>\n        <p>É importante não esquecer de utilizar o protetor solar e tomar muitos líquidos nessa época do ano. Isso porque além de ser muito quente, os raios solares são bem fortes.</p>\n        <p>No Brasil, o verão inicia em 21 de dezembro e dura até 20 de março.</p>\n      </div>\n\n\n      <div *ngIf=\"selected=='inverno'\">\n        <p>O inverno começa depois do outono e termina com o início da primavera. É a época mais fria do ano e em algumas regiões existe muita neve.</p>\n        <p>Durante o inverno, uma parte da Terra é menos iluminada pelos raios solares, assim os dias ficam mais curtos e as noites mais longas.</p>\n        <p>Nesse período, o clima é frio e seco, pois a umidade ar é baixa. Isso tudo pode fazer com que as pessoas fiquem mais resfriadas.</p>\n        <p>No Brasil, o inverno começa no dia 21 de junho e termina no dia 23 de setembro.</p>\n\n      </div>\n\n\n      <div *ngIf=\"selected=='outono'\">\n        <p>O outono é a estação que acontece depois do verão e antes do inverno. Durante o outono os dias voltam a ficar curtos e as folhas das árvores, já amareladas, começam a cair no solo.</p>\n        <p>As temperaturas começam a baixar e os dias ficam mais frios. Os raios solares também ficam cada vez menos fortes e podem acontecer ventanias.</p>\n        <p>No Brasil, o outono inicia entre 20 ou 21 de Março e termina entre 21 ou 22 de Junho. Porém, o outono não é percebido em todas as regiões do país.</p>\n\n      </div>\n\n\n      <div *ngIf=\"selected=='primavera'\">\n        <p>A primavera é a estação mais florida e colorida do ano. A temperatura é mais agradável e com o passar do tempo os dias começam a ficar maiores do que as noites.</p>\n        <p>Os dias são agradáveis para passeios e contemplação da natureza. Os animais voltam a ficar ativos e as plantas ficam cheinhas de flores.</p>\n        <p>No Brasil, a primavera inicia em 23 de setembro e termina em 22 de dezembro.</p>\n\n      </div>\n\n\n    </div>\n  </div>\n\n<div class=\"start-buttons-wrapper\">\n  <div class=\"start-questions\" (click)=\"startQuestion1()\">\n    Começar <br>Questões\n  </div>\n</div>\n\n</div>"
+module.exports = "<div class=\"container\">\n  <h1>Aprendendo as Estações</h1>\n  <div class=\"row\">\n    <div class=\"col-lg-2\">\n      <div class=\"lesson-station verao\" [ngClass]=\"{'active': selected=='verao'}\" (click)=\"selected='verao'\">Verão</div>\n      <div class=\"lesson-station inverno\" [ngClass]=\"{'active': selected=='inverno'}\" (click)=\"selected='inverno'\">Inverno</div>\n      <div class=\"lesson-station outono\"  [ngClass]=\"{'active': selected=='outono'}\" (click)=\"selected='outono'\">Outono</div>\n      <div class=\"lesson-station primavera\" [ngClass]=\"{'active': selected=='primavera'}\" (click)=\"selected='primavera'\">Primavera</div>\n    </div>\n    <div class=\"col-lg-10\">\n      <div *ngIf=\"selected=='verao'\">\n        <p>O verão é a estação mais quente do ano, as temperaturas são altas e os dias ficam maiores do que as noites. Isso acontece porque uma parte da Terra está mais perto do Sol.</p>\n        <p>Com o calor, a água evapora e, por isso, chove mais.</p>\n        <p>É importante não esquecer de utilizar o protetor solar e tomar muitos líquidos nessa época do ano. Isso porque além de ser muito quente, os raios solares são bem fortes.</p>\n        <p>No Brasil, o verão inicia em 21 de dezembro e dura até 20 de março.</p>\n        <audio src=\"./assets/audio/audio-verao.mp3\" autoplay=\"true\"></audio>\n      </div>\n\n\n      <div *ngIf=\"selected=='inverno'\">\n        <p>O inverno começa depois do outono e termina com o início da primavera. É a época mais fria do ano e em algumas regiões existe muita neve.</p>\n        <p>Durante o inverno, uma parte da Terra é menos iluminada pelos raios solares, assim os dias ficam mais curtos e as noites mais longas.</p>\n        <p>Nesse período, o clima é frio e seco, pois a umidade ar é baixa. Isso tudo pode fazer com que as pessoas fiquem mais resfriadas.</p>\n        <p>No Brasil, o inverno começa no dia 21 de junho e termina no dia 23 de setembro.</p>\n        <audio src=\"./assets/audio/audio-inverno.mp3\" autoplay=\"true\"></audio>\n      </div>\n\n\n      <div *ngIf=\"selected=='outono'\">\n        <p>O outono é a estação que acontece depois do verão e antes do inverno. Durante o outono os dias voltam a ficar curtos e as folhas das árvores, já amareladas, começam a cair no solo.</p>\n        <p>As temperaturas começam a baixar e os dias ficam mais frios. Os raios solares também ficam cada vez menos fortes e podem acontecer ventanias.</p>\n        <p>No Brasil, o outono inicia entre 20 ou 21 de Março e termina entre 21 ou 22 de Junho. Porém, o outono não é percebido em todas as regiões do país.</p>\n        <audio src=\"./assets/audio/audio-outono.mp3\" autoplay=\"true\"></audio>\n      </div>\n\n\n      <div *ngIf=\"selected=='primavera'\">\n        <p>A primavera é a estação mais florida e colorida do ano. A temperatura é mais agradável e com o passar do tempo os dias começam a ficar maiores do que as noites.</p>\n        <p>Os dias são agradáveis para passeios e contemplação da natureza. Os animais voltam a ficar ativos e as plantas ficam cheinhas de flores.</p>\n        <p>No Brasil, a primavera inicia em 23 de setembro e termina em 22 de dezembro.</p>\n        <audio src=\"./assets/audio/audio-primavera.mp3\" autoplay=\"true\"></audio>\n      </div>\n\n\n    </div>\n  </div>\n\n<div class=\"start-buttons-wrapper\">\n  <div class=\"start-questions\" (click)=\"startQuestion1()\">\n    Começar <br>Questões\n  </div>\n</div>\n\n</div>"
 
 /***/ }),
 
@@ -643,7 +787,7 @@ var QuestionOneComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n\n    <div class=\"col-lg-12\">\n      <div *ngIf=\"selected=='verao'\">\n        <h1>Qual grupo de roupas é de <b>Verão</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(1,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(1,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(1,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(1,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n\n          <!-- <div class=\"card-option \">\n            <img src=\"assets/img/cOutono.jpg\" alt=\"\" (click)=\"setAnswer(1,2)\" *ngIf=\"!removeAnswer2\">\n          </div>\n          <div class=\"card-option \">\n            <img src=\"assets/img/cPrimavera.jpg\" alt=\"\" (click)=\"setAnswer(1,3)\" *ngIf=\"!removeAnswer3\">\n          </div>\n          <div class=\"card-option \">\n            <img src=\"assets/img/cInverno.jpg\" alt=\"\" (click)=\"setAnswer(1,4)\" *ngIf=\"!removeAnswer4\">\n          </div> -->\n        </div>\n      </div>\n\n\n      <div *ngIf=\"selected=='inverno'\">\n        <h1>Qual grupo de roupas é de <b>Inverno</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(2,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(2,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(2,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(2,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n        \n\n        </div>\n      </div>\n\n\n      <div *ngIf=\"selected=='outono'\">\n        <h1>Qual grupo de roupas é de <b>Outono</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(3,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(3,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(3,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(3,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n\n        </div>\n      </div>\n\n\n      <div *ngIf=\"selected=='primavera'\">\n        <h1>Qual grupo de roupas é de <b>Primavera</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(4,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(4,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(4,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(4,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n        </div>\n\n      </div>\n\n      <div *ngIf=\"selected=='congrats'\" class=\"congrats-next\">\n        <video [src]=\"'assets/parabens-'+randomVideo+'.mp4'\" autoplay=\"true\" (ended)=\"endLevel()\"></video>\n        <h1>Parabéns! <br> Vamos para a próxima Fase</h1>\n      </div>\n\n\n      <div *ngIf=\"selected=='congrats-next'\" class=\"congrats-next\">\n        <video [src]=\"'assets/parabens-'+randomVideo+'.mp4'\" autoplay=\"true\" (ended)=\"nextQuestion()\"></video>\n        <h1>Parabéns, vamos para a próxima questão!</h1>\n      </div>\n\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n\n    <div class=\"col-lg-12\">\n      <div *ngIf=\"selected=='verao'\">\n        <h1>Qual grupo de roupas é de <b>Verão</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(1,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(1,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(1,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(1,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n\n          <!-- <div class=\"card-option \">\n            <img src=\"assets/img/cOutono.jpg\" alt=\"\" (click)=\"setAnswer(1,2)\" *ngIf=\"!removeAnswer2\">\n          </div>\n          <div class=\"card-option \">\n            <img src=\"assets/img/cPrimavera.jpg\" alt=\"\" (click)=\"setAnswer(1,3)\" *ngIf=\"!removeAnswer3\">\n          </div>\n          <div class=\"card-option \">\n            <img src=\"assets/img/cInverno.jpg\" alt=\"\" (click)=\"setAnswer(1,4)\" *ngIf=\"!removeAnswer4\">\n          </div> -->\n        </div>\n      </div>\n\n\n      <div *ngIf=\"selected=='inverno'\">\n        <h1>Qual grupo de roupas é de <b>Inverno</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(2,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(2,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(2,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(2,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n        \n\n        </div>\n      </div>\n\n\n      <div *ngIf=\"selected=='outono'\">\n        <h1>Qual grupo de roupas é de <b>Outono</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(3,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(3,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(3,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(3,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n\n        </div>\n      </div>\n\n\n      <div *ngIf=\"selected=='primavera'\">\n        <h1>Qual grupo de roupas é de <b>Primavera</b>?</h1>\n        <div class=\"cards-option\">\n          <div class=\"card-option\" (click)=\"setAnswer(4,1)\" [ngStyle]=\"{'background-image': 'url(assets/img/cVerao.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(1)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(4,2)\" [ngStyle]=\"{'background-image': 'url(assets/img/cInverno.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(2)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(4,3)\" [ngStyle]=\"{'background-image': 'url(assets/img/cOutono.jpg)'}\">\n            <div  alt=\"\" class=\"error\"*ngIf=\"removeAnswer.includes(3)\"></div>\n          </div>\n          <div class=\"card-option\" (click)=\"setAnswer(4,4)\" [ngStyle]=\"{'background-image': 'url(assets/img/cPrimavera.jpg)'}\">\n            <div  alt=\"\" class=\"error\" *ngIf=\"removeAnswer.includes(4)\"></div>\n          </div>\n        </div>\n\n      </div>\n\n      <div *ngIf=\"selected=='congrats'\" class=\"congrats-next\">\n        <video [src]=\"'assets/parabens-'+randomVideo+'.mp4'\" autoplay=\"true\" (ended)=\"endLevel()\"></video>\n        <h1>Parabéns! <br> Vamos para a próxima Fase</h1>\n      </div>\n\n\n      <div *ngIf=\"selected=='congrats-next'\" class=\"congrats-next\">\n        <video [src]=\"'assets/parabens-'+randomVideo+'.mp4'\" autoplay=\"true\" (ended)=\"nextQuestion()\"></video>\n        <h1>Parabéns, fim de jogo!</h1>\n      </div>\n\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
